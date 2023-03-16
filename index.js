@@ -20,10 +20,10 @@ function decrement(n) {
      return n
 }
 function makeInt(n) {
-    parseInt(n, 10);
-    return n
+    let baseTen = parseInt(n, 10);
+    return baseTen
 }
 function preserveDecimal(n) {
-    parseFloat(n)
-    return n
+    let float = parseFloat(n)
+    return float
 }
